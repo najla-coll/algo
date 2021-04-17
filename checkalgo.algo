@@ -4,7 +4,7 @@ VAR
     char : char:="";
     const1 : Integer:=0;
     const2 : Integer:=0;
-    const3 : Integer:=1;
+    const3 : Integer:=0;
 BEGIN
     Read (Phrase)
     Read (char)
