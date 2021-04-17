@@ -1,0 +1,27 @@
+ALGORITHM checkpoint
+VAR
+    Phrase : STRING ;
+    char : char:="";
+    const1 : Integer:=0;
+    const2 : Integer:=0;
+    const3 : Integer:=1;
+BEGIN
+    Read (Phrase)
+    Read (char)
+    Read(const1)
+    WHILE (char<>".") DO
+     const1:=const1+1
+    END_WHILE
+
+    Read(const2)
+    
+    if (char in   'a', 'e', 'i', 'o', 'u', 'y','A' ,'E' ,'I' ,'O' ,'U' ,'Y' )
+    const2 :=const2+1
+    Write(The number of vowels in the sentence)
+
+    Read(const3)
+    
+    if(char == " ")
+    const3 :=const3+1
+
+END
